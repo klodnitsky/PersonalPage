@@ -1,19 +1,38 @@
 body {
-    background-color: #ffffff;
-}
-
-header {
+    margin: 0;
+    padding: 0;
     background-color: #222823;
 }
 
+header {
+    background-color: #f4f7f5;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
 header h1 {
-    color: #f4f7f5;
+    padding: 0;
+    color: #08090a;
 }
 
 header h3 {
-    color: #a7a2a9;
+    color: #575a5e;
+}
+
+nav {
+    background-color: #08090a;
+    color: #f4f7f5;
+}
+
+main {
+    background-color: #f4f7f5;
 }
 
 footer {
     background-color: #222823;
+    color: #08090a;
 }
