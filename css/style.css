@@ -7,15 +7,9 @@ body {
 header {
     background-color: #f4f7f5;
     height: 150px;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    top: 0;
-    left: 0;
 }
 
 header h1 {
-    padding: 0;
     color: #08090a;
 }
 
@@ -33,6 +27,6 @@ main {
 }
 
 footer {
-    background-color: #222823;
-    color: #08090a;
+    background-color: #08090a;
+    color: #f4f7f5;
 }
