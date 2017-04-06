@@ -5,24 +5,33 @@ body {
 }
 
 #wrapper {
-    max-width: 960px;
+    max-width: 1440px;
     margin: auto;
 }
 
 
 /* --- HEADER --- */
 header {
+    position: relative;
     background-color: #f4f7f5;
     height: 150px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 header h1 {
     color: #08090a;
+    text-align: right;
 }
 
 header h3 {
     color: #575a5e;
+    text-align: right;
+}
+
+header img {
+    float: right;
+    position: relative;
+    padding: 10px;
 }
 
 /* --- MENU BAR --- */
@@ -42,6 +51,7 @@ nav ul {
 }
 
 nav li {
+    display: inline-block;
     padding: 10px;
 }
 
@@ -49,6 +59,15 @@ nav li {
     display: inline-block;
     padding: 10px 30px;
     margin: 0;
+}
+
+.top-menu li.active {
+    background: #29c5e6;
+    color: #ffffff;
+}
+
+.top-menu a {
+    color: #b2b2b2;
 }
 
 /* --- MAIN CONTENT --- */
@@ -62,4 +81,5 @@ main {
 footer {
     background-color: #08090a;
     color: #f4f7f5;
+    height: 200px;
 }
