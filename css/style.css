@@ -1,6 +1,7 @@
+/* ---------- My personal CSS ---------- */
 body {
     margin: 0;
-    background-color: #222823;
+    background-color: #eaeaea;
     font-family: "Courier New";
 }
 
@@ -31,7 +32,7 @@ header h3 {
 header img {
     float: right;
     position: relative;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 }
 
 /* --- MENU BAR --- */
@@ -61,11 +62,6 @@ nav li {
     margin: 0;
 }
 
-.top-menu li.active {
-    background: #29c5e6;
-    color: #ffffff;
-}
-
 .top-menu a {
     color: #b2b2b2;
 }
@@ -74,6 +70,27 @@ nav li {
 
 main {
     background-color: #f4f7f5;
+    padding: 0 20px;
+    display: flex;
+}
+
+/* --- LEFT CONTENT --- */
+
+section {
+    float: left;
+    margin: 0;
+    padding: 5px 5px;
+    width: 60%;
+}
+
+/* --- RIGHT COLUMN --- */
+
+aside {
+    float: right;
+    margin: 0;
+    padding: 5px 5px;
+    width: 40%;
+    border-left: 4px dotted #000000;
 }
 
 /* --- FOOTER --- */
@@ -81,5 +98,13 @@ main {
 footer {
     background-color: #08090a;
     color: #f4f7f5;
-    height: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #e54b4b;
 }
