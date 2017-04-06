@@ -1,10 +1,16 @@
 body {
     margin: 0;
-    padding: 0;
     background-color: #222823;
     font-family: "Courier New";
 }
 
+#wrapper {
+    max-width: 960px;
+    margin: auto;
+}
+
+
+/* --- HEADER --- */
 header {
     background-color: #f4f7f5;
     height: 150px;
@@ -18,14 +24,39 @@ header h3 {
     color: #575a5e;
 }
 
+/* --- MENU BAR --- */
+
 nav {
     background-color: #08090a;
     color: #f4f7f5;
 }
 
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 10px;
+}
+
+.top-menu li {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0;
+}
+
+/* --- MAIN CONTENT --- */
+
 main {
     background-color: #f4f7f5;
 }
+
+/* --- FOOTER --- */
 
 footer {
     background-color: #08090a;
