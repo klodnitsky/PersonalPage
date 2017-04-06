@@ -14,6 +14,7 @@ body {
 header {
     background-color: #f4f7f5;
     height: 150px;
+    padding: 20px 0;
 }
 
 header h1 {
