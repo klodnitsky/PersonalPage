@@ -91,7 +91,7 @@
             <h2>Phobias</h2>
                 <p>Acrophobia & Dentophobia</p>
             <h2>Nationality</h2>
-                <p>Moldavian guy, native russian speaker, born in Latvia, with Poland surname, studied in Ukrainian school, sometimes trying to use English language :)</p>
+                <p>Moldavian guy, native russian speaker, born in Latvia, with Poland surname, studied in Ukrainian school, sometimes trying to use English language</p>
             <h2>Hobby</h2>
                 <p>Running & Single Malt Whisky</p>
         </aside>
