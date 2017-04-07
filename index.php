@@ -46,8 +46,8 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <th>Link</th>
-                        <th>Description</th>
+                        <th class="link">Link</th>
+                        <th class="description">Description</th>
                     </tr>
                     </tbody>
 
@@ -58,16 +58,16 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>http://</td>
-                            <td>text</td>
+                            <td><a href="http://fontawesome.io/" target="_blank">http://fontawesome.io/</a></td>
+                            <td><strong>Font Awesome</strong> - The iconic font and CSS toolkit</td>
                         </tr>
                         <tr>
-                            <td>http://</td>
-                            <td>text</td>
+                            <td><a href="https://coolors.co/" target="_blank">https://coolors.co/</a></td>
+                            <td><strong>coolors</strong> - Color palette generator for web design</td>
                         </tr>
                         <tr>
-                            <td>http://</td>
-                            <td>text</td>
+                            <td><a href="http://learn.shayhowe.com/" target="_blank">http://learn.shayhowe.com/</a></td>
+                            <td>Learn to Code HTML & CSS written by amazing designer & front-end developer - <strong><a href="http://shayhowe.com/">Shay Howe</a></strong></td>
                         </tr>
                     </tbody>
 
@@ -78,16 +78,8 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>http://</td>
-                            <td>text</td>
-                        </tr>
-                        <tr>
-                            <td>http://</td>
-                            <td>text</td>
-                        </tr>
-                        <tr>
-                            <td>http://</td>
-                            <td>text</td>
+                            <td><a href="https://www.youtube.com/user/Justdoit150gmail">https://www.youtube.com/user/Justdoit150gmail</a></td>
+                            <td><strong>Alexander Kondrashov</strong> - Travel blogger, spear fisherman</td>
                         </tr>
                     </tbody>
                 </table>
