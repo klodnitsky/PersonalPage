@@ -74,13 +74,55 @@ main {
     display: flex;
 }
 
+main a {
+    text-decoration: none;
+    color: #e54b4b;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #D14545;
+}
+
+main a:active {
+    color: #ff0000;
+}
+
+main a:visited {
+    color: #bc3e3e;
+}
+
 /* --- LEFT CONTENT --- */
 
 section {
     float: left;
     margin: 0;
-    padding: 5px 5px;
+    padding: 5px 20px 5px 5px;
     width: 60%;
+}
+
+section h1 {
+    text-align: right;
+    collapse: collapse;
+}
+
+table {
+    width: 100%;
+    border: 1px dashed #000000;
+    border-collapse: collapse;
+
+}
+
+thead th {
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+th {
+    border: 1px dashed #000000;
+    text-align: left;
 }
 
 /* --- RIGHT COLUMN --- */
@@ -88,9 +130,13 @@ section {
 aside {
     float: right;
     margin: 0;
-    padding: 5px 5px;
+    padding: 5px 5px 5px 20px;
     width: 40%;
     border-left: 4px dotted #000000;
+}
+
+aside h2, aside p {
+    text-align: right;
 }
 
 /* --- FOOTER --- */
