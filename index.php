@@ -36,7 +36,7 @@
         <section>
             <h1>Knowledge base / BLOG</h1>
             <h2>Information about my personal page</h2>
-                <p>Oh… rly?! No idea about what I need to write here! Usually professional programmers using <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a> generator, but already I’m not professional programmer. Hmm… I have a good idea! If you know useful link, good how-to manual, cool thing or other extra send me an email: <a href="mailto:andrew.k2@gmail.com">andrew.k2@gmail.com</a> or find me on social portals such like <a href="https://www.facebook.com/andrejs.klodnickis" target="_blank">facebook</a> or other where you can catch me.</p>
+                <p>Oh… rly?! No idea about what I need to write here! Usually professional programmers using <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a> generator, but already I’m not a professional programmer. Hmm… I have a good idea! If you know useful links, good how-to manuals, cool thing or other interesting stuff, please send me an email: <a href="mailto:andrew.k2@gmail.com">andrew.k2@gmail.com</a> or find me on <a href="https://www.facebook.com/andrejs.klodnickis" target="_blank">facebook</a> or others.</p>
             <h2>Useful things</h2>
                 <table>
                     <thead>
