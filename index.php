@@ -11,7 +11,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Profile Page - Homework 1</title>
+    <title>Profile Page - Homework 1!</title>
     <link rel="stylesheet" href="css/style.css"> <!-- My personal CSS -->
     <link rel="stylesheet" href="fa470/css/font-awesome.min.css"> <!-- Local Font Awesome 4.7.0 icon pack & CSS -->
 </head>
