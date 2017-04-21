@@ -35,23 +35,52 @@ header img {
     padding: 10px 10px 0 10px;
 }
 
+div.headerLogo {
+    float: right;
+    padding: 0;
+    margin 0;
+    width: 500px;
+}
+
+div.loginForm {
+    border: 1px dashed #000;
+    float: left;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.loginRow {
+    padding: 2px 0;
+}
+
+.loginBtn {
+    padding: 3px 0;
+    align-items: center;
+}
+
 /* --- MENU BAR --- */
 
 nav {
+    height: 38px;
     background-color: #08090a;
     color: #f4f7f5;
 }
 
-nav a {
+nav.about {
+    background-color: #08090a;
+    color: #f4f7f5;
+}
+
+nav.about a {
     text-decoration: none;
 }
 
-nav ul {
+nav.about ul {
     margin: 0;
     padding: 0;
 }
 
-nav li {
+nav.about li {
     display: inline-block;
     padding: 10px;
 }
@@ -64,6 +93,15 @@ nav li {
 
 .top-menu a {
     color: #b2b2b2;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    padding: 5px 0;
+    margin: 0;
 }
 
 /* --- MAIN CONTENT --- */
@@ -94,14 +132,14 @@ main a:visited {
 
 /* --- LEFT CONTENT --- */
 
-section {
+section.about {
     float: left;
     margin: 0;
     padding: 5px 20px 5px 5px;
     width: 60%;
 }
 
-section h1 {
+section.about h1 {
     text-align: right;
     collapse: collapse;
 }
@@ -138,9 +176,13 @@ td {
     padding: 5px;
 }
 
+.row {
+
+}
+
 /* --- RIGHT COLUMN --- */
 
-aside {
+aside.about {
     float: right;
     margin: 0;
     padding: 5px 5px 5px 20px;
@@ -148,7 +190,7 @@ aside {
     border-left: 4px dotted #000000;
 }
 
-aside h2, aside p {
+aside.about h2, aside p {
     text-align: right;
 }
 
