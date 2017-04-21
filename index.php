@@ -6,12 +6,33 @@
 // start session
 session_start();
 
-//database connection
+// database connection
 require 'config/database.php';
 $db = DB();
 
 $login_error_message = '';
 $register_error_message = '';
+
+// check login data
+if (!empty($_POST['btnLogin'])) {
+
+    $username = trim($_POST['username']); // clear post data & leave only 'username'
+    $password = trim($_POST['password']); // clear post data & leave only 'password'
+
+    if ($username == "") {
+        $login_error_message = 'Username field is required!';
+    } else if ($password == "") {
+        $login_error_message = 'Password field is required!';
+    } else {
+        $user_id = $app->Login($username, $password); // check user login data
+        if($user_id > 0) { // if user exist (id greater than 0)
+            $_SESSION['user_id'] = $user_id; // open SESSION
+            header("Location: main.php"); // redirect user to the main.php
+        } else {
+            $login_error_message = 'Sorry, but you need to check your credentials!';
+        }
+    }
+}
 
 ?>
 
@@ -27,19 +48,22 @@ $register_error_message = '';
 <div id="wrapper">
     <header>
         <div class="loginForm">
-                <form action="index.php" method="post">
-                    <div class="loginRow">
-                        <label for="username"><td>Username:</label>
-                        <input type="text" name="username" id="username">
-                    </div>
-                    <div class="loginRow">
-                        <label for="password">Password:</label>
-                        <input type="password" name="password" id="password">
-                    </div>
-                    <div class="loginBtn">
-                        <input type="submit" name="btnLogin" value="Login">
-                    </div>
-                </form>
+            <form action="index.php" method="post">
+                <div class="loginRow">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div class="loginRow">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="loginBtn">
+                    <input type="submit" name="btnLogin" value="Login">
+                </div>
+                <div class="registerRow">
+                    <a href="">Register</a>
+                </div>
+            </form>
         </div>
         <div class="headerLogo">
             <a href="img/avatar.png"><img src="img/avatar.png" alt="Profile avatar" width="120" height="120"></a>

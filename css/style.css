@@ -2,7 +2,7 @@
 body {
     margin: 0;
     background-color: #eaeaea;
-    font-family: "Courier New";
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 #wrapper {
@@ -38,7 +38,7 @@ header img {
 div.headerLogo {
     float: right;
     padding: 0;
-    margin 0;
+    margin: 0;
     width: 500px;
 }
 
@@ -55,7 +55,30 @@ div.loginForm {
 
 .loginBtn {
     padding: 3px 0;
-    align-items: center;
+    float: right;
+}
+
+.registerRow {
+    padding: 5px 0;
+    float: left;
+}
+
+header a {
+    text-decoration: none;
+    color: #e54b4b;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: #D14545;
+}
+
+header a:active {
+    color: #ff0000;
+}
+
+header a:visited {
+    color: #bc3e3e;
 }
 
 /* --- MENU BAR --- */
@@ -89,10 +112,30 @@ nav.about li {
     display: inline-block;
     padding: 10px 30px;
     margin: 0;
+    float: left;
 }
 
 .top-menu a {
     color: #b2b2b2;
+}
+
+.top-menu ul {
+    left: 0;
+}
+
+.top-menu-right li {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0;
+    float: right;
+}
+
+.top-menu-right a {
+    color: #b2b2b2;
+}
+
+.top-menu-right ul {
+    right: 0;
 }
 
 .title {
